@@ -8,8 +8,9 @@ public class VendeurTest {
 
 	@Test
 	public void CalculSalaireVendeurTest() {
-		Vendeur Vdr= new Vendeur("Maryeme",2017);
+		Vendeur Vdr= new Vendeur("Maryeme",2016);
 		Vdr.setCommission(20.5);
 		assert (Vdr.calculSalaire()==1600.5);
 	}
+
 }

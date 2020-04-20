@@ -8,7 +8,7 @@ public class EmployeTest {
 	
 	@Test
 	public void CalculSalaireEmployeTest() {
-		Employe Emp= new Employe("Maryeme",2017);
+		Employe Emp= new Employe("Maryeme",2016);
 		assert (Emp.calculSalaire()==1580);
 	}
 	
